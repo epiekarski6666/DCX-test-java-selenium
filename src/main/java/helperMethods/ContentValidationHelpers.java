@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import setup.Setup;
-
 import java.util.List;
 
 public class ContentValidationHelpers extends Setup {

@@ -1,16 +1,11 @@
 package contentValidation;
 
 import helperMethods.ContentValidationHelpers;
-import locators.ContentValidationLocators;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import setup.Setup;
-import stringVariables.ContentValidationVariables;
-
 import static locators.ContentValidationLocators.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
