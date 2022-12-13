@@ -37,6 +37,12 @@ public class ContentValidationTests extends Setup {
         wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.submenuTechnologyExpertise));
         //Select Technology Expertise and ensure that the page contains a list of technologies
         contentValidationHelpers.clickElement(ContentValidationLocators.submenuTechnologyExpertise);
+        wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.salesforceBlock));
+        wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.acquiaBlock));
+        wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.acousticBlock));
+        wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.adobeBlock));
+        wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.bynderBlock));
+        wait.until(ExpectedConditions.presenceOfElementLocated(ContentValidationLocators.sitecoreBlock));
         //Each of the technology blocks should contain: Name, Image, Description]
         contentValidationHelpers.technologyBlocksContain(ContentValidationVariables.salesforceHeading, ContentValidationVariables.salesforceImage, ContentValidationVariables.salesforceDescription);
         contentValidationHelpers.technologyBlocksContain(ContentValidationVariables.acquiaHeading, ContentValidationVariables.acquiaImage, ContentValidationVariables.acquiaDescription);
